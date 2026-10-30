@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia a dia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="glandulas.html">Glândulas e hormônios</a>
+        <a href="dia_a_dia.html">Dia a dia</a>
+        <a href="doencas.html">Doenças e alterações</a>
+        <a href="quiz.html">Quiz</a>
+    </nav>
+
+    <main>
+
+        <section>
+
+            <section>
+
+    <h2>Sistema endócrino no dia a dia</h2>
+    <div class="destaque-inicio">
+
+        <img src="imagens/dia_a_dia.png" alt="di a dia">
+
+        <div class="texto-destaque">
+
+            <h3>Dia a dia</h3>
+
+            <p>
+                O sistema endócrino está presente em diversos momentos da nossa vida, mesmo quando não percebemos. Por meio dos hormônios, 
+                ele controla e regula funções importantes do organismo, como o crescimento, o sono, a fome, o metabolismo, as emoções e as 
+                mudanças da puberdade. Essas substâncias trabalham constantemente para manter o equilíbrio do corpo e garantir seu bom 
+                funcionamento.
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- O restante do conteúdo da página continua aqui -->
+
+            <!-- EIXO E ALIADOS -->
+
+            <div class="blocos-guerra">
+
+                <button class="bloco-guerra" onclick="mostrarBlocoGuerra('eixo')">
+                    <h3>Crescimento</h3>
+
+                    <span>Clique para saber mais</span>
+                </button>
+
+                <div class="seta-guerra">
+                    →
+                </div>
+
+                <button class="bloco-guerra" onclick="mostrarBlocoGuerra('aliados')">
+                    <h3>Puberdade</h3>
+
+                    <span>Clique para saber mais</span>
+                </button>
+
+            </div>
+
+            <!-- CONTEÚDO DO EIXO -->
+
+            <div id="eixo" class="conteudo-guerra">
+
+                <h3>Crescimento</h3>
+
+                <p>
+                    O crescimento do corpo é regulado principalmente pelo hormônio do crescimento (GH), produzido pela hipófise. Ele estimula 
+                    o desenvolvimento dos ossos e músculos, contribuindo para o aumento da altura e o desenvolvimento corporal, especialmente 
+                    durante a infância e a adolescência.
+                </p>
+            </div>
+
+            <!-- CONTEÚDO DOS ALIADOS -->
+
+            <div id="aliados" class="conteudo-guerra">
+
+                <h3>Puberdade</h3>
+
+                <p>
+                    Durante a puberdade, ocorrem diversas mudanças físicas e emocionais causadas principalmente pelos hormônios sexuais, 
+                    como o estrogênio e a testosterona. Eles são responsáveis pelo desenvolvimento das características sexuais, pela maturação 
+                    do sistema reprodutor e por outras transformações no corpo.
+                </p>
+
+            </div>
+
+            <!-- LINHA DO TEMPO -->
+
+            <div class="linha-tempo">
+
+                <h3>Outros</h3>
+
+                <div class="anos">
+
+                    <button onclick="mostrarAno('ano1939', this)">
+                        sono
+                    </button>
+
+                    <button onclick="mostrarAno('ano1941', this)">
+                        estresse
+                    </button>
+
+                    <button onclick="mostrarAno('ano1942', this)">
+                        fome
+                    </button>
+
+                    <button onclick="mostrarAno('ano1944', this)">
+                        emoções
+                    </button>
+
+                    <button onclick="mostrarAno('ano1945', this)">
+                        sist. nervoso
+                    </button>
+
+                </div>
+
+                <!-- 1939 -->
+
+                <div id="ano1939" class="evento">
+
+                    <h4>Sono e melatonina</h4>
+
+                    <p>
+                        A glândula pineal produz melatonina, que ajuda a regular o ciclo sono-vigília. Sua secreção costuma
+                        aumentar à noite, especialmente na ausência de luz.
+                    </p>
+
+                </div>
+
+                <!-- 1941 -->
+
+                <div id="ano1941" class="evento">
+
+                    <h4>Estresse e adrenalina</h4>
+
+                    <p>
+                        Em situações de perigo ou tensão, adrenalina e cortisol contribuem para o estado de alerta e para a
+                        disponibilidade de energia.
+                    </p>
+
+                </div>
+
+                <!-- 1942-1943 -->
+
+                <div id="ano1942" class="evento">
+
+                    <h4>Fome, saciedade e metabolismo</h4>
+
+                    <p>
+                        A grelina está associada ao aumento da fome, enquanto a leptina participa da sinalização das reservas
+                        energéticas ao cérebro. Outros hormônios, como insulina e hormônios tireoidianos, também influenciam
+                        o metabolismo.
+                    </p>
+
+                </div>
+
+                <!-- 1944 -->
+
+                <div id="ano1944" class="evento">
+
+                    <h4>Emoções e alterações hormonais</h4>
+
+                    <p>
+                        Oscilações hormonais podem influenciar humor e disposição, como na puberdade e em fases do ciclo
+                        menstrual. Emoções, porém, também dependem de fatores psicológicos, ambientais e sociais.
+                    </p>
+
+                </div>
+
+                <!-- 1945 -->
+
+                <div id="ano1945" class="evento">
+
+                    <h4>Sistema nervoso e endócrino</h4>
+
+                    <p>
+                        O sistema nervoso geralmente transmite sinais rápidos por impulsos elétricos e neurotransmissores; o
+                        sistema endócrino utiliza hormônios, cujos efeitos podem ser mais prolongados.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            Projeto de biologia
+        </p>
+
+        <p>
+            Colégio São Luiz -
+            Isabella Astor, João Victor, Maria Vitória, Vinicius Costa, Kelry M.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
